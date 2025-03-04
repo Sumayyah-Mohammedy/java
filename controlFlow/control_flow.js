@@ -44,3 +44,28 @@ console.log("User Category: ",usercategory);
 let isAuthenticated = true;
 let authenticationStatus = isAuthenticated? "Authenticated":"Not Authenticated";
 console.log("Authentication Status: ", authenticationStatus);
+
+let person = "Non Subscriber";
+let authorization;
+let doctorInteraction;
+switch(person){
+    case "Employee":
+        authorization = "Full Access";
+        console.log("Access to dietary service");
+        break;
+    case "Enrolled Member":
+        authorization = "Full Access";
+        doctorInteraction = true;
+        console.log("Access to dietatry service + one on one interaction with doctor granted");
+        break;
+    case "Subscriber":
+        authorization = "partial Access";
+        console.log("Partial access granted");
+        break;
+    default:
+        authorization = "No Access";
+        console.log("Enroll or subscribe first");
+}
+console.log("Authorization: ", authorization);
+
+
