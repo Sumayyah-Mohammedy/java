@@ -3,6 +3,7 @@ function increasecount(){
     count++;
      displaycount();
      checkCountVAlue();
+     
 }
 function displaycount(){
     document.getElementById('countDisplay').innerHTML=count;
@@ -13,4 +14,9 @@ function checkCountVAlue(){
     }else if(count === 50){
         alert("Congratulations! You are on a role.");
     }
+}
+function resetfollowers(){
+    count = 0;
+    alert("Followers have been reset to 0.");
+    displaycount();
 }
