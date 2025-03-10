@@ -23,12 +23,14 @@ function endTest(){
     if(timeElapsed !== 0 && !isNaN(typedWords)){
         wpm = Math.round((typedWords/timeElapsed)*60);
     }
+    var len = userTypedText.length;
 
     var outputDiv = document.getElementById('output');
     outputDiv.innerHTML = "<h2>Typing Test Results:</h2>" +
     "<p>Words Typed:" + typedWords +"</p>" +
     "<p>Time Elapsed" + timeElapsed.toFixed(2) + " seconds</p>" +
-    "<p>Words Per Minute " + wpm + "</p>";
+    "<p>Words Per Minute " + wpm + "</p>" +
+    "<p>Length "+ len + "</p>";
 
     var button = document.getElementById('btn');
     button.innerHTML = "Start Test";
