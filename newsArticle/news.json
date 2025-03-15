@@ -1,0 +1,74 @@
+{
+    "articles": [
+        {
+            "title": "Tech Innovations 2025",
+            "description": "Latest advancements in AI, robotics, and quantum computing are set to revolutionize industries worldwide.",
+            "author": "John Doe",
+            "date": "2025-03-16",
+            "category": "Technology"
+        },
+        {
+            "title": "Climate Change Effects Intensify",
+            "description": "Global temperatures continue to rise, causing severe weather patterns and melting ice caps.",
+            "author": "Jane Smith",
+            "date": "2025-03-15",
+            "category": "Environment"
+        },
+        {
+            "title": "Stock Markets Hit New Highs",
+            "description": "The stock market sees record-breaking gains as tech giants report strong earnings.",
+            "author": "Michael Lee",
+            "date": "2025-03-14",
+            "category": "Finance"
+        },
+        {
+            "title": "Sports Championship Finals Announced",
+            "description": "The biggest sporting event of the year is set to take place next month, with teams battling for the ultimate prize.",
+            "author": "Emily Davis",
+            "date": "2025-03-13",
+            "category": "Sports"
+        },
+        {
+            "title": "Breakthrough in Cancer Research",
+            "description": "Scientists have discovered a new treatment that could significantly improve cancer survival rates.",
+            "author": "Dr. Sarah Johnson",
+            "date": "2025-03-12",
+            "category": "Health"
+        },
+        {
+            "title": "Global Politics: Major Summit Held",
+            "description": "World leaders gathered to discuss economic and security challenges in a high-profile summit.",
+            "author": "Robert Williams",
+            "date": "2025-03-11",
+            "category": "Politics"
+        },
+        {
+            "title": "Travel Industry Rebounds Post-Pandemic",
+            "description": "With eased travel restrictions, tourism is booming once again as airlines and hotels see record bookings.",
+            "author": "Sophia Martinez",
+            "date": "2025-03-10",
+            "category": "Travel"
+        },
+        {
+            "title": "New Smartphone Launch: Features & Specs",
+            "description": "The latest flagship smartphone has been unveiled, featuring cutting-edge technology and improved battery life.",
+            "author": "Daniel Brown",
+            "date": "2025-03-09",
+            "category": "Technology"
+        },
+        {
+            "title": "Space Exploration: NASA Plans New Mars Mission",
+            "description": "NASA announces an ambitious plan to send astronauts to Mars by the end of the decade.",
+            "author": "Linda Scott",
+            "date": "2025-03-08",
+            "category": "Science"
+        },
+        {
+            "title": "Music Industry Trends in 2025",
+            "description": "Streaming services and AI-generated music are changing the way we listen to our favorite songs.",
+            "author": "Chris Anderson",
+            "date": "2025-03-07",
+            "category": "Entertainment"
+        }
+    ]
+}
